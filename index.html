@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Israel's Amazing Website</title>
+        <style>
+            body {
+                background: rgb(57, 4, 126);
+                color: rgb(235, 210, 210);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(91, 3, 255);
+                margin: 0 auto;
+                margin-bottom : 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(243, 243, 247);
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 0, 34);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px rgb(243, 242, 242) ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+     </head>
+    
+    <body>
+        <!--All content goes here-->
+        <div id="All-contents">
+            <nav>
+                <h1>Wolrdwide Website</h1>
+                <ul id = "nav-ul">
+                    <li class = "nav-li">
+                        <a href = "index.html">Home </a>
+                    </li>
+                    <li class = "nav-li">
+                        <a href = "portfolio.html"> Portfolio</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <main>
+                <!--Sidebar section-->
+                <div class = "sidebar">
+                    <img class= "sidebar.img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxdvw_pkwokRd_Q90z8uAqxxsJxHHRyynhVA:https://laughingsquid.com/wp-content/uploads/2019/12/Unbreakable-Neon-Donut-Sign.jpg%3Fw%3D750&usqp=CAU">
+                </div>
+
+                <!--Content section-->
+
+                <div class = "content">
+                    <h2> Israel Martinez </h2>
+
+                    <p> Student at EAHS </p>
+
+                    <!--Interests section-->
+                    <div>
+                        <h3>Interests</h3>
+                        <ul id = "Interests">
+                            <li>Cooking </li>
+                            <li>Drawing</li>
+                            <li>learning</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+    </body>
+</html>
